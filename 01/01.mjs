@@ -6,12 +6,12 @@ const sum = (acc, cur) => acc + cur;
 
 const sumCalories = (elf) =>
   elf
-    .split("\r\n")
+    .split(/\r?\n/)
     .map((cal) => parseInt(cal, 10))
     .reduce(sum, 0);
 
 const maxCalories = content
-  .split("\r\n\r\n")
+  .split(/\r?\n\r?\n/)
   .map(sumCalories)
   .sort((a, b) => a - b);
 
