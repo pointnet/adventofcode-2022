@@ -1,13 +1,16 @@
 {
   "name": "adventofcode-2022",
   "version": "1.0.0",
-  "description": "",
+  "description": "Advent of Code 2022",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "day01": "node ./01/01.mjs"
+    "day01": "node ./01/01.mjs",
+    "day02": "node ./02/02.mjs"
   },
-  "keywords": [],
+  "keywords": [
+    "adventofcode2022"
+  ],
   "author": "pointnet",
   "license": "MIT"
 }
