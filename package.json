@@ -7,7 +7,8 @@
   "scripts": {
     "day01": "node ./01/01.mjs",
     "day02": "node ./02/02.mjs",
-    "day03": "node ./03/03.mjs"
+    "day03": "node ./03/03.mjs",
+    "day04": "node ./04/04.mjs"
   },
   "keywords": [
     "adventofcode2022"
